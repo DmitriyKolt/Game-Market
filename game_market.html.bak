@@ -1,0 +1,248 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Game Market</title>
+<link rel="stylesheet" href="decoration.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="menu">
+<h1>Game Market</h1>
+<nav>
+<ul>
+    <li class="razdel"><a href="#">Популярное</a></li>
+    <li><a href="new.html">Новинки</a></li>
+    <li><a href="give.html">Раздачи</a></li>
+    <li><a href="free.html">Бесплатное</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="genres">
+<aside>
+<ul>
+<li><a href="#">Приключения</a></li>
+<li><a href="#">Экшен</a></li>
+<li><a href="#">Стратегия</a></li>
+<li><a href="#">Открытый мир</a></li>
+<li><a href="#">Головоломка</a></li>
+<li><a href="#">Симулятор</a></li>
+<li><a href="#">Спорт</a></li>
+<li><a href="#">Аркада</a></li>
+<li><a href="#">Квест</a></li>
+<li><a href="#">РПГ</a></li>
+<li><a href="#">Файтинг</a></li>
+<li><a href="#">Гонка</a></li>
+<li><a href="#">Инди</a></li>
+<li><a href="#">2D</a></li>
+<li><a href="#">От 3 лица</a></li>
+<li><a href="#">От 2 лица</a></li>
+<li><a href="#">Батл рояль</a></li>
+<li><a href="#">Выживание</a></li>
+<li><a href="#">Шутер</a></li>
+<li><a href="#">Стелс-экшен</a></li>
+</ul>
+</aside>
+</div>
+
+<main>
+<div class="gallery_games">
+<figure>
+<div class="opis">
+<mark>Grand Theft Auto 5</mark> — 
+легендарное продолжение популярной 
+серии Grand Theft Auto. Местом действия
+ стал город Лос-Сантос, полюбившийся 
+ ещё в GTA: San Andreas. Впервые игра 
+ расскажет историю сразу трех персонажей
+ : Майкла, Тревора и Франклина, между 
+ которыми вы сможете переключаться в любое время.
+</div>
+<img src="GTA.jpg" alt="обложка гта 5"  width="210" height="250">
+<div class="name">Gta 5</div>
+<figcaption><a href="#">1399руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Minecraft</mark> - это инди-игра в жанре 
+песочницы с элементами выживания и открытым миром. 
+По стилю, мир игры полностью состоит из блоков 
+(ландшафт, предметы, мобы, игрок), и для текстурирования 
+используются текстуры с низким разрешением (16×16 текселей).
+</div>
+<img src="mine.png" alt="обложка майнкрафта" width="210" height="250">
+<div class="name">Minecraft</div>
+<figcaption><a href="#">1799руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Red Dead Redemption 2</mark> — 
+это вторая часть приключенческого экшена от третьего лица 
+Red Dead Redemption, события которого разворачиваются на 
+Диком Западе. События игры являются своего рода предысторией 
+оригинальной Red Dead Redemption, и расскажут, в частности, 
+о прошлом Джона Марстона.
+</div>
+<img src="rdr2.jpg" alt="обложка рдр2" width="210" height="250">
+<div class="name">RDR 2</div>
+<figcaption><a href="#">1699руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Geometry Dash</mark> — 
+компьютерная игра
+ в жанре 2D-платформера, 
+ выпущенная изначально 
+ для мобильных устройств
+ на iOS/Android, 
+ позже и для настольных 
+ компьютеров. 
+ Создатель игры — шведский 
+ разработчик Роберт Топала, 
+ выступающий под псевдонимом RobTop.
+</div>
+<img src="gd.jpg" alt="обложка гд" width="210" height="250">
+<div class="name">Geometry Dush</div>
+<figcaption><a href="#">189руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Terraria</mark> - это пиксельная "песочница", 
+смешивающая Minecraft и приключенческую ролевую игру. 
+Игроки вольны исследовать большой, процедурно генерируемый 
+двухмерный мир, добывать ресурсы, строить здания, 
+искать мощную экипировку и сражаться с разнообразными противниками и угрозами.
+</div>
+<img src="terr.jpg" alt="обложка террарии" width="210" height="250">
+<div class="name">Terraria</div>
+<figcaption><a href="#">399руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Grand Theft Auto: Vice City</mark>— игра в жанре
+ аction-adventure, сочетающая в себе элементы 
+ шутера от третьего лица и элементы автосимулятора в большом и открытом 
+для исследования игровом мире, с 
+классическим для этого жанра управлением.
+</div>
+<img src="gta_vice.jpg" alt="обложка гта вай сити" width="210" height="250">
+<div class="name">Gta Vice City</div>
+<figcaption><a href="#">1299руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Raft</mark> - это приключенческий 
+симулятор выживания посреди 
+океана, где игроки строят огромный плот-дом, чтобы 
+добраться до дома и не стать 
+жертвой акул-людоедов, которые кружат в округе.
+</div>
+<img src="raft.jpg" alt="обложка рафт" width="210" height="250">
+<div class="name">Raft</div>
+<figcaption><a href="#">459руб</a></figcaption>
+</figure>
+
+
+<figure>
+<div class="opis">
+<mark>Forza Horizon 5</mark> — компьютерная 
+игра в жанре аркадного гоночного симулятора. 
+В качестве разработчика выступает компания Playground 
+Games, а в качестве издателя — Xbox Game Studios. Игра 
+была анонсирована в июне 2021 года 
+на мероприятии E3 2021. Выход 
+игры состоялся 9 ноября 2021 года.
+</div>
+<img src="fh.jpg" alt="обложка форзы" width="210" height="250">
+<div class="name">Forza Horizen 5</div>
+<figcaption><a href="#">2599руб</a></figcaption>
+</figure>
+
+
+<figure>
+<div class="opis">
+<mark>Little Nightmares</mark> (с англ. — «Маленькие кошмары») — 
+мультиплатформенная компьютерная игра в 
+жанре платформера с элементами квеста и хоррора, 
+разработанная шведской 
+компанией Tarsier Studios и выпущенная 
+компанией Bandai Namco Entertainment
+</div>
+<img src="ln.jpg" alt="обложка литл найтмеирс" width="210" height="250">
+<div class="name">Little Nightmares</div>
+<figcaption><a href="#">299руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+Мальчик Моно просыпается в 
+лесу после того, как он увидел сон о том,
+ что он идёт по длинному коридору, 
+ который ведёт к двери с символом в форме 
+ глаза. Уклонившись от ловушек, разбросанных в лесу, Моно приходит в дом, 
+принадлежащий Охотнику — таксидермисту, 
+делающему из своих жертв чучела.
+</div>
+<img src="lt2.jpeg" alt="обложка литл найтмеирс 2" width="210" height="250">
+<div class="name">Little Nightmares 2</div>
+<figcaption><a href="#">599руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Euro Truck Simulator 2</mark> — компьютерная 
+игра в жанре симулятора водителя-дальнобойщика
+ с элементами экономической стратегии. 
+ Разработана и выпущена 
+чешской компанией SCS Software в 
+2012 году. Часть серии игр Truck Simulator.
+</div>
+<img src="et.jpeg" alt="обложка евро трак симулятор" width="210" height="250">
+<div class="name">Euro Track Simulator 2</div>
+<figcaption><a href="#">499руб</a><figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>Metro Exodus</mark> — компьютерная игра в жанре шутера от первого лица, 
+разработанная украинской компанией 4A Games и изданная Deep Silver.
+</div>
+<img src="metro.jpg" alt="обложка метро эксодус" width="210" height="250">
+<div class="name">Metro:Exodus</div>
+<figcaption><a href="#">499руб</a></figcaption>
+</figure>
+
+<figure>
+<div class="opis">
+<mark>The Forest</mark> - это мрачная sandbox-игра
+ про выживание в ночном лесу, 
+ полном монстров. Игроки попадают
+ на остров в результате авиакатастрофы, 
+ после чего узнают, что на острове они не
+ одиноки - там же живет 
+племя туземцев-каннибалов, которые начинают
+ преследовать протагониста.
+</div>
+<img src="tf.jpeg" alt="обложка зе форест" width="210" height="250">
+<div class="name">The Forest</div>
+<figcaption><a href="#">459руб</a></figcaption>
+</figure>
+
+</div>
+</main>
+<footer>Все права защищены,2022</footer>
+</body>
+</html>

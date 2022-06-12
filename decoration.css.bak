@@ -1,0 +1,181 @@
+body {
+background-color: black;
+min-width: 1200px;
+}
+
+h1 {
+display: inline;
+padding-left: 6px;
+color:black; 
+font-family: 'Press Start 2P', cursive;
+}
+
+.menu {
+display: flex;
+background: #f26666;
+border-style:solid;
+color: black;
+border-radius:20px;
+/* justify-content:flex-start; */
+}
+
+.menu ul {
+display: inline-block;
+margin:0;
+padding-left: 15px;
+padding-top:20px;
+list-style-type: none;
+}
+
+.menu li {
+display:inline-block;
+padding: 10px 40px;
+border-right-style: solid;
+border-bottom-style: solid;
+transition: background 500ms;
+}
+
+.menu ul a {
+display:block;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-family: 'Press Start 2P', cursive;
+}
+
+nav {
+border-left-style: solid;
+}
+
+.menu ul li:hover {
+background-color: white;
+padding: 7px 40px;
+border-left-style: solid;
+border-top-style: solid;
+border-right-style: none;
+border-bottom-style: none;
+}
+
+figcaption {
+color:black;
+font-family: 'Akshar', sans-serif;
+font-size: 140%;
+}
+
+figure {
+display: inline-block;
+padding: 14px 14px;
+vertical-align: center;
+background: linear-gradient(45deg, rgb(44, 4, 212), rgb(186, 78, 39));
+transition: transform 500ms linear;
+}
+
+.gallery_games {
+display: flex;
+flex-wrap:wrap;
+justify-content: space-around;
+padding-top: 50px
+
+}
+
+.genres ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.genres li {
+	display: inline-block;
+	background: #f26666;
+	border-radius:20px;
+	margin: 6px;
+	padding: 0 10px;
+	transition: transform 700ms;
+	font-weight:bolder;
+}
+
+.genres ul a{
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
+}
+
+del {
+	color: #857171;
+}
+
+.sale {
+	display: inline;
+	background:red;
+	padding: 1px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: white;
+	border-radius: 40px;
+    margin:0 0 0 10px
+}
+
+.genres li:hover {
+	transform: scale(1.2);
+	background: white;
+}
+
+.genres li:hover a {
+	color: red;
+}
+
+figure:hover {
+transform: scale(1.2);
+background: white;
+}
+
+figure a {
+color:#fa3232;
+float: left;
+font-size: 140%;
+font-weight: bolder;
+text-align: center;
+padding-left: 18px;
+padding-right: 10px;
+text-decoration: none;
+background-color: white;
+border-radius: 40px;
+}
+
+.gallery_games figure:hover a{
+background-color: black;
+}
+
+footer {
+display:flex;
+justify-content: flex-start;
+color: black;
+font-family: 'Akshar', sans-serif;
+position: fixed;
+bottom: 2px;
+background: white;
+}
+
+
+.opis {
+	position: absolute;
+	padding:14px 14px 0 14px;
+	margin:-14px -14px 0 -14px;
+	width: 210px;
+	height: 250px;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	opacity:0;
+	transition: opacity,background-color 600ms linear ;
+}
+
+figure:hover .opis {
+
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.razdel {
+	background: white;
+ }
